@@ -1,0 +1,2975 @@
+Sub TotalHolidayUpdate() If range("A"& i + 18) value . name_ Then
+
+WorkSheets("w"Select flag = true)
+
+Dim departments Exit For
+
+departments = Split(|Q2).Value.".") End If
+
+Dim name Next
+
+For Each department in departments If flag Then
+
+name = department & - ' # 27" range("A"& i + 18 & ":XFD" & i + 18). select
+
+WorkSheets(name).Select Selection Delete Shift:=xlUp
+
+Call Matching() End If
+
+Next
+
+Call TotalBJUpdate() Worksheets(strsheet). select
+
+WorkSheets("w"Select End Sub
+
+Call RecordPatrol()
+
+End Sub Sub transfer()
+
+Dim name
+
+Sub ReMatching() Dim depart
+
+worksheets("' qja, "KRI") select Dim deprat_now
+
+Dim num Dim Total
+
+num = [A2].value Dim use_holiday1
+
+ReDim namess(num) Dim use_holiday2
+
+For i = 1 To num Dim use_ holiday3
+
+namess(i) = Range("B" & i + 4).value Dim displine
+
+Next Dim point
+
+ReDim depart(num) Dim happyday
+
+For i=1 To num
+
+depart(i) = Worksheets(" " """""Cells.range("P" work '').select
+
+(
+
+& 7 + i).value name = [B95].value
+
+16
+
+[B96].value & " " #
+
+Next depart =
+
+-15
+
+ii=0 depart_now Worksheets(" "wj"
+
+For ii 1 To num
+
+Worksheets(""Cells.find(name).cffset(0.11).value
+
+depart
+
+alue = "=' ' ' qk. ' ' & "X" & ii + 4 ' grnf Worksheets(depart_now).select
+
+Worksheets(depart_ncw).Cells.find(name).Select
+
+worksheets(depart(ii)).cells.find(namess(ii)).offset(0,2).offset(24,0).v ActiveCell. '''l
+
+value =
+
+alue = "=' ' '@ ' ' ' ' ' '!'' & "z" & ii + 4 K/6 ReDim prize_list(18)
+
+Next ReDim prize_formula(18)
+
+Call TotalBJUpdate() ReDim prize_date(18)
+
+End Sub
+
+ReDim special_list(20)
+
+Sub delete_every(name_) ReDim special_formula(20)
+
+StrSheet = ActiveCell.Parent.Narne ReDim special_date(20)
+
+Worksheets("'ct For i = 1 To 18
+
+flag = false prize_list(i)
+
+For i = 1 To [C91].value activecell.offset(0,1).cffset(2+i,0). value
+
+If range("C"& i + 95).value = name_ Then actifset(2+i,0).value =
+
+flag = true prize_formula(i)
+
+Exit For activecell. .offset(0,2).offset(2+i0).formula
+
+End If actiset(2+i,0).value =
+
+Next prize_date(i)
+
+If flag Then actifset(2+i.0).value
+
+range("A"& i + 95 & ":XFD" & i + 95).select activecell.offset(0,4).cffset(2+i,0). .value =
+
+Selection.Delete Shift:=xlUp Next
+
+Range("A218:XFD218").Select For i = 1 To 20
+
+Selection.Insert Shift:=xlDown special_list(i)
+
+End If actiset(22+i,0).value
+
+special_formula(i)
+
+actiset(22+i,0).formula
+
+Worksheets("7]- - - - select special_ .date(i)
+
+flag = false activecell.offset(0,4).cffset(22+i.0).
+
+value
+
+For i = 1 To [A14].value actifset(22+i,0). .value ''''
+
+=
+
+
+activecell.offset(0,2).offset(22+i.0).value = offset(48*(Int(i/2)-1),8).value = name
+
+Activecell.
+
+activecell.offset(0,4).offset(22+i.0).value
+
+=
+
+Total
+
+Activecell.offset(48*(Int(i/2)-1)+1,9).value
+
+=
+
+Next
+
+total = Activecell. .offset(0.1).offset(1.0).value
+
+use_holiday1
+
+Activecell.offset(48*(Int(i/2)-1)+7.14).value
+
+=
+
+Activecell.offset(0.1).offset(1.0).alue =
+
+use_ holiday1 = Activecell. offset(0.6).offset(7.0) .value
+
+Activecell.offset(0.6). .offset(7,0).value . offset(48*(Int(i/2)-1)+19.14). value = use_holiday2
+
+use_ holiday2 = Activecell. offset(0.6).offset(19.0).value Activecell.
+
+.offset(19,0).value Activecell.offset(48*(Int(i/2)-1)+25,14).value use_holiday3
+
+""
+
+Activecell. .offset(0,6). = =
+
+use_ holiday3 = Activecell. offset(0.6).offset(25.0).value
+
+Activecell.offset(0,6). .offset(25.0). value displine
+
+Activecell.offset(48*(Int(i/2)-1)+43,14).value
+
+= =
+
+displine = Activecell.offset(0.6).offset(43.0)value For m = 1 To 18
+
+Activecell.offset(0,6).offset(43.0) value ttt
+
+=
+
+happyday ActiveCell.offset(0,4).offset(1,0).value prize_list(m)
+
+ActiveCell.offset(2+48*(Int(i/2)-1)+m.9).value
+
+=
+
+=
+
+-
+
+ActiveCell.offset(0,4).offset(1.0).value =
+
+ActiveCell.offset(2+-48*(Int(i/2)-1)+m,10).formula
+
+worksheets(depart),slect
+
+[B4].select prize_formula(rn)
+
+For i = 1 To 15
+
+prize_date(m)
+
+ActiveCell.offset(2+48*(Int(i/2)-1)+m,13).value =
+
+If i mod 2 = 1 Then
+
+Next
+
+I
+
+Acti(i/2)), - 1).value "
+
+= Then
+
+For m = 1 To 20
+
+Activecell. .offvalue = name
+
+ActiveCell.offset(22+48*(Int(i/2)-1)+m.9).value = special_list(m)
+
+Activecell. .off .value = Total
+
+6
+
+Activecell. .off).value = happyday ActiveCell.offset(22+48*(Int(i/2)-1)+m,10).formula
+
+special_formula(m)
+
+/2021-12
+
+Activecell.offset(48*(Irt(i/2))+7.5). .value = use_holiday1
+
+ActiveCell.offset(22:+48*(Int(i/2)-1)+m,12) value = special_date(m)
+
+Acti(i/2))+19,5).value use_holiday2 Next
+
+/ / / Y S Z Z R
+
+=
+
+point = i
+
+Activecell.offset(8*(Int(i/2))+25,5).value = use_holiday3 Exit For
+
+" ( End If
+
+Activecell. offset(48*(Inti/2))+43,5).value = displine End If
+
+For m = 1 To 18 Next
+
+Worksheets(""""lect
+
+ActiveCell.offset(2+48*(Int(i/2))+m0).value = prize_list(m) Cells.find(name).Select
+
+If point mod 2 = 1 Then
+
+ActiveCell.offset(2+-48*(Int(i/2))+m,1).value = prize_formula(m) ActiveCell.offset(0,3).value "='" & depart &
+
+=
+
+""!C" & 48*Int((point-1)/2) + 5
+
+ActiveCell.offset(0,4).value = "=" & depart &
+
+ActiveCell.offset(2+48*(Int(i/2))+m,3) value = prize_date(m) "'!G" & 48*Int((point-1)/2) + 47
+
+Next ActiveCell.offset(0,8).value = "=" & depart &
+
+"'!C" & 48*Int((point-1)/2) + 23
+
+For m = 1 To 20 ActiveCell.offset(0,9).value "="
+
+= & depart &
+
+""!C" & 48*Int((point-1)/2) + 45
+
+ActiveCell.offset(22+48*(Int(i/2))+m,0).value = special_list(m) else
+
+ActiveCell.offset(0,3).value = "-" & depart &
+
+ActiveCell.offset(22+48*(Int(i/2))+m.1).value = special_formula(m) "'!L" & 48*Int((point-1)/2) + 5
+
+ActiveCell.offset(0,4).value = "=" & depart &
+
+"'!P" & 48*Int((point-1)/2) + 47
+
+ActiveCell.offset(22+48*(Int(i/2))+m,3).value = special_date(m) ActiveCell.offset(0,8).value = "='" & depart &
+
+Next "'!L" & 48*Int((point-1)/2) + 23
+
+point = i ActiveCell.offset(0,9).value = "-'" & depart &
+
+Exit For ""!L" & 48*Int((point-1)/2) + 45
+
+End If End If
+
+else work 'tard.select
+
+If ActiveCell.offset( End Sub
+
+48*(Int(i/2)-1),8).value '''ll Then
+
+=
+
+Sub Delete_ _Who_Gone() Dim Array_len
+
+Dim Address
+
+Dim Person_Gone
+
+Array_len = 0
+
+Dim Department_belongs_to Total_Num = Range("A14").value
+
+Dim Person_Address ReDim Store_ Who_Patrol(Total_ Num)
+
+Dim Last_ Person_Address ReDim Store_ Count_ WeekDays(Total_Num)
+
+Dim temp1 'F'ITSM-MR @ CJF ReDim Store_ Count_ Weekends
+
+Dim temp2 'Floffle @% For i = 1 To Total_ Num
+
+WorkSheets("'' - ").Select If Range("B"&18+i).value > 1 Then
+
+Person_ .Gone = Range("F2").value Store_ Who_Patrol(i) = Range("A"&18+i). value
+
+Workrange("D92").value Store-Count_ WeekDays(i) = "= 71
+
+Workange("D92").value & "." & Person_Gone 1"&"E"&18+i
+
+... '
+
+' c GRMFLR Array_len = Array_len +1
+
+Worksheets(" ')' 0.0.0. " ckj. .Select End If
+
+" " Next
+
+Call Delen_gone) Dim a
+
+Call Delete_tool("A","D", person_gone) For i = 1 To Array_len
+
+worksheets("'''''''' qk, | " " On Error Resume Next
+
+Call Delete_tool("AG","AG".person_gone) If err.number = 0 Then
+
+address = Worksheets("
+
+Call Delete_ _tool("AE","AE".person_gone)
+
+Call Delete_tool("AA","AB",person_gone) ww").cells.Find(Store_ _Who_Patrol(i)).Offset(0,11).value
+
+Call Delete_tool("Y","Y", ,person_gone)
+
+Call Delete_tool("B","U", ,person_gone) Worksheets(Address). .Select
+
+WorkSheets("wj").Select
+
+Department_ belongs_to cells. .Find(Store _Who1).select
+
+Cells.find(person_gne).offset(0,11).value
+
+O
+
+Call Delete_tool("P","P",person_gone) ActiveCelloffset(2,0).Select
+
+Call Delete_tool("K","N",person_gone) 10 For j=1 To 20
+
+/2021-12-15
+
+Call Delen_gone) a j
+
+Call Delete_ .tool("E","E", ,person_gone)
+
+Worksheets(Department_ _belongs_to).Select I f
+
+Cells.find(person_gore).Address' Actilue " ActiveCell.offset(j,0).value = "
+
+temp1 = or
+
+/ / / Y & S
+
+=
+
+Address_alphabet = get_ Alphabet(temp1) ' 5 G C C " Then
+
+Address_num = get_ num(temp1) Exit
+
+alphabet_ asc = Asc(Address_alphabet) 17 For
+
+Range(Address_alphabet & address_ num & & End If
+
+Address_alphabet & address_num + 44).ClearContents Next
+
+Range(Chr(alphabet_aSC + 1) & Address_num + 3 &
+
+& Chr(alphabet_ asc+2) & Address_num + 20).Clearcontents Activecell.offset(a,0).value =" "715 X X "
+
+Range(Chr(alphabet_aSC + 4) & Address_num + 3 &
+
+11,11 .asc+5) & Address_num 20).Clearcontents
+
+& Chr(alphabet_ +
+
+Range(Chr(alphabet_aSC + 1) & Address_num + 23 & Activecell.offset(a,1).value = Store_Count_WeekDays(i)
+
+"." asc+2) & Address_num 42).Clearcontents End If
+
+& Chr(alphabet_ +
+
+Range(Chr(alphabet_aSC + 4) & Address_num + 23 & on error goto 0
+
+"." & Address_num 42).Clearcontents' Next
+
+& Chr(alphabet_ asc+5) +
+
+Range(Chr(alphabet_aSC + 6) & Address_num + 7 & End Sub
+
+& Chr(alphabet_ asc + 7) & Address_num + 9).Clearcontents
+
+Range(Chr(alphabet_aSC + 6) & Address_num + 19 & Sub AddHoliday()
+
+" Chr(alphabet_ 7) & Address_num 27).Clearcontents WorkSheets("'''''''''' '''''''''').Select
+
+& asc + +
+
+Range(Chr(alphabet_asc + 6) & Address_num + 25 & Dim Arr_People
+
+"." 7) Address_num 41).Clearcontents Dim Int_ Day ' ' ' )
+
+& Chr(alphabet_ asc + & +
+
+Range(Chr(alphabet_aSC + 6) & Address_num + 43 & Dim Str_Name
+
+"," & Chr(alphabet_asc + 7) & Address_num + 44).Clearcontents Dim Str_What ' + 9 corverver
+
+Call delete_every(Person_Gone) Dim Int_Date ' ' ' '
+
+Call Rematching() Dim Str_Where ' ¦ ¦ ¦ < 201
+
+Call makepretty() Arr_People = Split([B2].Value,",")
+
+End Sub Str_Name = [B3]. Value
+
+Int_Day = [B4]. Value
+
+Sub RecordPatrol() Str_What = [B5].Value
+
+WorkSheets("71-5-5 Int_Date = [B6].Value
+
+Dim Total_Num If Int_day > 0 Then
+
+For each i in Arr_People
+
+ActiveCell.Offset(2+j.1).Value
+
+C
+
+WorkSheets("' '10 N'S ' ' ' '
+
+").Select
+
+ActiveCell.Offset(2+j,3).Value =
+
+WorkSheets(WorkSheets("
+
+Exit
+
+").C1).Value).Select
+
+Cells.Find(i).Offset(0.1).Select ' ' ' ' For Else
+
+18 ( ) 12 20 1 End If
+
+If Str_ What = " x " Then
+
+Next
+
+For j = 1 To 18
+
+Else
+
+I
+
+If Str_What = " H
+
+Acti Value ... Then
+
+=
+
+Then
+
+For j = 1 To
+
+ActiveCell.Offset(2+j,0). Value = Str_Name
+
+20
+
+ActiveCell.Offset(2+j,1).Value = Int_Day I f
+
+ActiveCell.Offset(22+j,0). Value = Str_Name Then
+
+ActiveCell. .Offset(2+j,3). Value = Int_Date
+
+ActiveCell.Offset(22+j,0).Value
+
+=
+
+Exit
+
+For
+
+Else
+
+ActiveCell.Offset(22+j.1).Value =
+
+End If
+
+Next Acti Value =
+
+Else
+
+If Str_What = " HI " Exit For
+
+Then
+
+Else
+
+For j 1 To End
+
+16:21
+
+=
+
+20 If
+
+f Next
+
+/2021-12-15
+
+I
+
+ActiveCell.Offset(22+j,0). Value = ... Then
+
+Else
+
+MsgBox("'#2'
+
+ActiveCell.Offset(22+j.0).Value = Str_Name f 'S R O C o c a y s . " "
+
+End If
+
+/ / z z s d
+
+ActiveCell.Offset(22+j.1).Value = Int_Day End
+
+If
+
+Next
+
+ActiveCell.Offset(22+j,3).Value = Int_ Date 2
+
+End If
+
+Exit For WorkSheets(" '21' ' ' - -).Select
+
+Else End Sub
+
+End
+
+If Sub TotalBJUpdate()
+
+Next WorkSheets("').Select
+
+Else Dim PNum ' k k ' ')44'
+
+MsgBox("'# # Dim BNum ' ' ''')'
+
+f '; Dim Lst
+
+End If BNum = [P5]. Value
+
+End If [AZ1].Value = Range("C96:C200"). .End(XlDown).Address
+
+Next Lst = [AZ2].Value
+
+else PNum = Lst - 96 + 1
+
+For each i in Arr_People ReDim BName(R5]. Value) ' ' '
+
+WorkSheets(" ) 0.01 ' ' ' ' ReDim Store(PNum,BNum+1)
+
+").Select BName(1) = "
+
+WorkSheets(WorkSheets("w"w Cell
+
+").C11).Value).Select For i = 1 To [R5].Value - 1
+
+CellSelect ' ' ' E BName(i+1) = Activalue
+
+18Ⅶ. HJ 20 TM Next
+
+If Str_What = " " E Then For i = 1 To PNum
+
+For j = 1 To 18 For j= 0 To BNum
+
+I Store(i,j+1) = ActiveCell.OffSet(i.j)
+
+ActiveCell. .Offset(2+j,0).Value = Str_Name Then If i = 1 Then
+
+End If
+
+ActiveCell.Offset(2+j,0).Value #1 Next
+
+=
+
+Next
+
+[C1].Select On Error goTo 0
+
+Dim SS Next
+
+ReDim t(BNUm) End Sub
+
+Dim tt
+
+Dim ttt Sub Matching()
+
+Dim Flag Dim a
+
+For i = 1 To Dim b
+
+BNum
+
+Dim Bnum
+
+t(i) = [C87].OffSet(0,i).Value Bnum = [F2].Value
+
+Next
+
+a = [B2].Value
+
+Dim StrName
+
+Dim Strname 'Store the name
+
+Dim StrSheet 'Current SheetName
+
+For i= 1 To PNum Dim Address1 'Adress What we will use
+
+On Error Resume Next Dim StrValue 'Change address
+
+SS = WorkSheets("w Dim Address3
+
+"). Cells. Find(Store(i.1)).Offset(0.11).Value Dim Address4
+
+WorkSheets(SS).Select Dim Address5
+
+Cells.Find(Store(i,1)).Select Dim bbb
+
+If err.number = 0 Then Dim Address2 Address that used in wjd
+
+ActiveCell.OFfset(0,1).Select Range("A4").Select
+
+ActiveCell.Offset(22,0)Select Dim temp
+
+For j = 2 To BNum+1 Dim ck1
+
+ttt = 0 Dim ck2
+
+For 1=1 To 20 ck1 = Works
+
+If Store(i.j) point = 1
+
+0 Then For i = 1 To 10
+
+Exit 16:2 If point = Bnum Then
+
+For Exit For
+
+A2021-12-15
+
+End If End If
+
+ActiveCell.Formula - Then
+
+I f If =
+
+ActiveCell.Offset(l,0).Value = BName(j-1) Then else
+
+tt point point 1
+
+( ) / / / ( 2 5 L L L
+
+= +
+
+i + 95 Strname = ActiveCell.Formula
+
+ttt = 'Call arrangement()
+
+J StrSheet = ActiveCell.Parent. Name
+
+WorkSheets(" ' ' qk ' ' ' ' < 2
+
+ActiveCell.Offset(l,1).Value = "=' ' ' T(j-1) & tt ").Select
+
+Exit Address1
+
+For Cells.Find(Strname).Offset(0,22).Address
+
+Else Address2
+
+I f Cells.Find(Strname).Offset(0,24).Address
+
+ACtiveCell.Offset(1,0).Value ... Then WorkSheets(StrSheet).Select
+
+=
+
+ActiveCell. .Offset(0,2).Select
+
+ttt = 9010 ActiveCell.Offset(23,0).value = "=' '''''''''
+
+' ' ' ' ' ' ' qk, ' ' ' ' ' '!"&Address1
+
+Exit For ActiveCell.Offset(24,0).value = "=' 'a
+
+Else ' ' qk, '2|| 32 '!"&Address2
+
+End Address2
+
+If ActiveCell. .Offset(21,0).address ' ' ' '
+
+End If Address3
+
+Next ActiveCell.Offset(43,0).address ' Hjs hjo,
+
+If ttt = 9010 Then Address4
+
+ActiveCell. .Offset(1,0).address lklond
+
+ActiveCell. .OFfset(l,0).Value = BName(J-1) Address5
+
+ActiveCell. .Offset(43,4).address ' 80 , ,
+
+ActiveCell. .Offset(1.1).Value = "=' ' ' & T(j-1) & i+95 WorkSheets(""w"p""" .Select
+
+Else Address4
+
+End If Replace(Address4,"$","")
+
+Next Address5
+
+End If Replace(Address5, ,"$","")
+
+Address2
+
+duration = [AQ4].Value
+
+Repl Dim num
+
+Address3 Dim Canout
+
+Replace(Address3,"$","") num - 0
+
+Store(duration+1)
+
+ReDim
+
+Cells.Find(Strname) .Address duration 1
+
+bbb= -
+
+For i = 0 To
+
+Range("C4").Select
+
+Range(bbb).Select [R2].Value = ActiveCell. Offset(0,i). Value
+
+ActiveCell. .Offset(0.11).Value If [R3].Value Then
+
+StrSheet num + 1
+
+num =
+
+ActiveCEII. .Offset(0,3).Formula Store(num) = [R2].Value
+
+"=''& a & Address4 'If used this code in another case [C27]
+
+Else
+
+has to be changed
+
+End If
+
+ActiveCEII. .Offset(0,4).Formula =
+
+-- Next
+
+& & a & Address5 End(XlDown).acdress
+
+[Y2] = Range("B5:B65").
+
+ActiveCEII. .Offset(0,8).Formula =
+
+"'" Dim LstNum
+
+& & a & Address2
+
+LstNum = [Z1].Value
+
+Actirmula =
+
+-- Dim strtNum
+
+& & a & Address3
+
+WorkSheets(StrSheet).Select strtNum = 5
+
+If i mod 2 = 1 Then ReDim ArrTot(LstNum-strtNum+1,3)
+
+Dim tem ' ' ' N I N K . q k
+
+ActiveCell.Offset(0,7).Select Dim NN
+
+Else NN = 0
+
+Dim bb
+
+ActiveCell. .Offset(48,-11).Select Dim Out
+
+End If For i = StrtNum To LstNum
+
+End If 16:2 bb = 0
+
+Next 0
+
+/2021-12-15
+
+tem =
+
+[A1].Select Canout = 0
+
+End Sub [C4].Select
+
+For j= 0 To duration-1
+
+Sub Corona() bb 0
+
+/ / / Y & R
+
+=
+
+Do While([AS2].Value) For mn = 1 To Num
+
+Range("D4: S65").Copy If Store(mn)
+
+Range("C4").Select 2017 ActiveCell.Offset(0,j) Then
+
+ActiveSheet. .Paste bb = mn
+
+Range("S4").Value = [AW2].Value Exit For
+
+'Range("R100:R154").Select Else
+
+'Selection.Copy End If
+
+'Range("R4").Select Next
+
+Sel e C tion.PasteSpecial If bb = 0 Then
+
+Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, I
+
+Transpose:=False ActiveCell. .Offset(i-strtNum+1,j) = 1 Then
+
+Loop Else
+
+For i 1 To 17 '1 w x x o z "creas 0D5
+
+Canout
+
+For j = 1 To range("A3"). value Canout + 1
+
+I End If
+
+range(range("BB"&2+i).value&j+4).value = 1 Then
+
+Else
+
+I
+
+range(range("BB"&2+i).value&j+4).select ActiveCell.Offset(i-StrtNum+1,j) = 1 Then
+
+Else
+
+Selection.Interior.Cclor = RGB(0,0,0)
+
+Tem = Tem +
+
+End If
+
+Next
+
+End If
+
+Next
+
+End If
+
+Dim mon Next
+
+Dim 1st
+
+out = Range("U"&i). Value
+
+1st = [AQ3].Value
+
+NN = NN + 1
+
+Dim strt
+
+Range("T"&i).Value= tem
+
+strt = [C4].Value
+
+Range("AA"&i).Value = Canout
+
+Dim duration ArrTot(NN,1) = Range("B"&i).Value
+
+ArrTot(NN, ,2) =
+
+Range("X"&i).Value
+
+ArrTot(NN,3) = BunLength = 0
+
+Range("Z"&i).Value
+
+Next BuBunLength = 0
+
+End Sub Mon = [X1].Value
+
+Dim Day
+
+Sub OneMonth(AD1) Range("Z1:AK1").Select
+
+Dim BNum Selection.Find(What:=Mon, After:=ActiveCell,
+
+Dim ADD1 Lookln:=xlFormulas. LookAt:=xlPart,
+
+ADD1 = AD1 S e a r chOrder:= xlByRows,
+
+BNum = [R4].Value SearchDirection:=xINext, MatchCase:=False.
+
+[R3].Value = M a t c h B y te:= F a I s e
+
+Range(AD1), Value
+
+Call NewBDG(BNUM,ADD1) SearchFormat:=False). Activate
+
+Dim BjNum ActiveCell.Offset(1,0).Select
+
+Day = ActiveCell. Value
+
+BjNum = [R5].Value
+
+Range(Add1).Select
+
+Call BJ(Bnum,Add1 ,BJNum)
+
+For i = 1 To BNUm
+
+End Sub
+
+ActiveCell.Offset(1,0).Select
+
+If ActiveCell. Value EEI
+
+= Then
+
+Sub AutoChecking()
+
+Else
+
+Dim StrDate ' ' (J) endlf If ActiveCell.Offset(0.1).Value = " " 4
+
+Dim Address1 '950 . O " " Then
+
+Dim B_Number ' ' ' ' ') ' Else
+
+StrDate = [R3].Value
+
+BunLength = BunLength
+
+B_Number =[R4].Value + 1
+
+Range("A7:XFD7").Select Bun(BunLength)
+
+Address1 = Selection. .Find(StrDate).Address
+
+ActiveCell. Value
+
+Call NewBDG(B_Number, Address1) I
+
+' ' ' ' aDSlql ' tclos 2220209 | = 0 rcrac yysns ActiveCell.Offset(2,0). Value III Then
+
+=
+
+Cdlps ' t # DUSLRU 1
+
+' ' ' ' ' eed qudnds e . lso d.ddddnjd -> |cqclos ife BunDate(BunLength) 30
+
+/2021-12
+
+=
+
+dddsns Else
+
+Dim BJ_Num
+
+BJ_NUm = [R5]. Value BunDate(BunLength)
+
+Day ActiveCell.OffSet(2,0). Value
+
+/ / | Y
+
+= -
+
+Call BJ(B_Number, Address1, BJ_NUm) End If
+
+End Sub End If
+
+" ( End If
+
+Sub HG(TNum) ActiveCell.OffSet(1,0).Select
+
+Dim StrtNum If ActiveCell. Value -
+
+= Then
+
+Dim LstNum Else
+
+StrtNum = 96 ' ' BPJR
+
+If ActiveCell.Offset(0,1).Value = " " |
+
+[A88].Value = Range("C96:C282"). .End(XlDown).Address " " Then
+
+' - Else
+
+LstNum = [A89].Value
+
+For i = StrtNum To LstNum ActiveCell.Offset(1,0).Vlue = '''' Then
+
+Range("T"&i). Value = Range("C"&i). Value
+
+Else
+
+For j = 1 To TNum BuBunLength
+
+If j = 1 Then = BuBunLength + 1
+
+Range("U"&i).Value
+
+Range("D"&i).Value/30 BuBun(BuBunLength) = ActiveCell. Value
+
+End Sub BuBunDate(BuBunLength) = ActiveCell.Offset(1,0).Value
+
+End If
+
+Sub NewBDG(BNum, Add1) End If
+
+ReDim Bun(BNum) End If
+
+ReDim BuBUn(BNum) ActiveCell.OffSet(1,0).9elect
+
+ReDim BunDate(BNum) Next
+
+ReDim Address(BNum) Dim a
+
+ReDim BuBunDate(BNUm) Dim c
+
+Dim BunLength If BunLength = 0 Then
+
+Dim BuBBunLength a = 1
+
+Dim temp Else
+
+Dim Mon
+
+a = BunLength
+
+Dun
+
+c 1 Ncount +1
+
+Ncount =
+
+Else Range("C"&Lst+Noount).Value
+
+C = bubunlength
+
+End If BuBun(i)
+
+Range("D"&LSt+Noount).Value
+
+If BunLength = 0 Then
+
+Bun(1) = "90101" BuBundate(i)
+
+End If End If
+
+If BuBUnLength =0 Then End If
+
+BUBun(1) = "90101" Next
+
+End If End Sub
+
+ReDim StoreBBDJ(c)
+
+ReDim StoreBBDJN(c)
+
+Dim NCount Sub BJ(BNum, .Add1,BJNum) 'BNum e ' * 'Clock ADD1 2 (
+
+Ncount = 0
+
+'', BJNUMA ( (
+
+Dim Strt bhotoron ReDim BJN(BJNum,3)
+
+strt = 96
+
+Range(Add1).Select
+
+Dim 1st ActiveCell.Offset(BNum*3,0).Select
+
+[A88].value = Range("C96:C164"). .End(Xldown).Address ' ' ' " : ( ,
+
+Dim TCount
+
+1st = [A89]. Value Dim Ncount 'ibdR (ng IN : . .
+
+Dim flag Tcount = 0
+
+For i = 1 To BJNum
+
+For i = 1 To a Ncount 0
+
+16:21
+
+=
+
+flag = 0 For
+
+j = 1 To 3
+
+For j = Strt To Lst
+
+ActiveCell.Offset(1,0).Select
+
+/2021-12-15
+
+If Range("C"&j).Value Bun(i) ActiveCell. Value FRIE Then
+
+= If =
+
+Then
+
+BJN(i.j) = 90 ' '
+
+Range("D"&j).value
+
+Range("D"&j).Value + Bundate(i)
+
+Else
+
+/ / / /
+
+flag = 1
+
+I
+
+Exit For ActiveCell.OffSet(0,1).Value = " Then
+
+Else ()
+
+BJN(i.j) = 90
+
+End If Else
+
+BJN(i,j)
+
+Next ActiveCell. Value
+
+If flag = 1 Then
+
+Tcount
+
+Else Tcount + 1
+
+If Bun(i) = "90101" Then
+
+End If
+
+Else End If
+
+Ncount = Ncount +1
+
+Next
+
+Range("C"&Lst+Ncourt). Value Next
+
+Bun(i) Dim a
+
+Range("D"&LSt+Ncount).Value If Tcount = 0 Then
+
+Bundate(i) a = 1
+
+End If Else
+
+End If a = TCount
+
+Next End If
+
+For i = 1 To c ReDim tempStore(a)
+
+flag = 0
+
+ReDim tempBjStore(a)
+
+For j = Strt To Lst
+
+NCount = 0
+
+If Range("C"&j). Value = BuBun(i) Dim Temp
+
+Then
+
+Dim temp1
+
+Range("D"&j).value Dim LstNum
+
+Range("D"&j). Value + BuBundate(i)
+
+Dim StrtNum
+
+flag = 1 Dim Flag
+
+Exit For StrtNum = 96
+
+Else [A88].Value = Range("C96:C282").End(XlDown).AdcIress
+
+End If ' -
+
+Flag = 0
+
+If BJN(i.j) = 90 Then Next
+
+End If
+
+Else
+
+temp = BjN(i.j)
+
+End Sub
+
+For m = StrtNum To
+
+LstNum
+
+Sub AllUpdate()' ' bights
+
+1 f If [AP1].Value Then
+
+Range("C"&m). Value
+
+= temp Then ' ' 0101 dhl ' ' Range("C7:Z82").Select
+
+Selection.ClearContents
+
+Range("C"&m).Offset(0,i+1).Value
+
+Range("AA7:BY82").Copy
+
+Range("C"&m).Offset(0,i+1).Value
+
++ 1 Range("C7").Select
+
+Flag ActiveSheet. Paste
+
+= 1 ' 012-1
+
+Range("AY7:BY82").Select
+
+Exit Selection.ClearContents
+
+For
+
+Dim a
+
+Else a = [AM1].Value +1
+
+End If [AA7].Select
+
+Next For i = 1 To 12
+
+If Flag = 1 Then If i<10 Then
+
+Else ActiveCell.Value = a &
+
+Ncount "_0" &i
+
+Ncount + 1 Else
+
+'MsgBox(temp) ActiveCell. Value = a &
+
+& i 16:21
+
+tempStore(Ncount) temp ' ' ' ' ' 20 0 End If
+
+/2021-12-15
+
+=
+
+ActiveCell. .Offset(0,2). .Select
+
+tempBjStore(Ncount) = i ¦d¦w¦w¦q¦q¦n¦w¦g¦ Next
+
+End If Range("C300:BY376").Select
+
+End If Selection.Copy
+
+Next & d Range("c6:BY82").Select
+
+Next '5030' 'wod 2 C 'M3027040 ' ' curd ' 4 S e 1 e C t i o n PasteSpecia l
+
+..... ' ' ) H ' sssq 9cards " ( Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False,
+
+Dim bbb Transpose:=False
+
+If Ncount = 0 Then [A1].Select
+
+Else else
+
+For i = 1 To Ncount End If
+
+Flag = 0 Dim StartNum
+
+bbb = 0 Dim EndNum
+
+For m = StrtNum To LstNum Dim Address1
+
+If Range("C"&m).Value = Dim Address2
+
+tempstore(i) Then (1012) , , Range("D96:S200").ClearContents
+
+Flag StartNum = [C5]. Value
+
+= 1 ' 1 EndNum = [D5].Value
+
+bbb Range("A7:XFD7").Select
+
+= m Address1 = Selection.Find(StartNum).Address
+
+Exit Address2 = Selection. .Find(EndNum).Add1ess
+
+For Dim Flag
+
+Else Flag = 0
+
+End If Dim Address_T
+
+Next Range(Address1).Select
+
+If Flag = 1 Then Dim nn
+
+nn = 0
+
+Range("C"&bbb).Offset(0,tempBjStore(i)+1).Value Do While(Flag<1)
+
+Range("C"&bbb).Offset(0,tempBjStore(i)+1).Value + 1 Address_T = ActiveCell.Address
+
+Else Call OneMonth(Address_T)
+
+If Address_T = Address2 Then
+
+Range("C"&LstNum+1).Value = tempStore(i) Flag = 2
+
+Else
+
+End If
+If nn >100 Then
+Else
+End If
+MsgBox("err")
+Flag = 2
+nn = nn + 1
+Range(Address_T).Select
+ActiveCell.Offset(0,2).Select
+End Select
+m =
+Range("Al"&j).Value '
+Select Case m
+Case 3
+Week 3(NumN(6)+1) = j NumN(6) = NumN(6) +1
+Case 4
+Week 4(NumN(7)+1) = j NumN(7) +1 NumN(7)
+Case 5 To 8
+End Sub
+Sub SB()
+loop
+[A1].Select
+Dim WK
+'신병체크리스트보고
+'코로나 외출, 외박 정리
+WorkSheets("코로나 외출, 외박 정리").Select
+WK =
+Range("AH5:AH60").End(XIDown).Address
+[Y2].Value
+= WK
+Dim Num1 'Number which is The End of the List
+Num1 = [Z2].Value
+'케이스로 1일차, 2일차 3~7일차, 12~14일차
+ReDim Day-1(10)
+Next
+End Select
+week 5(NumN(8)+1) = j
+NumN(8)
+R
+NumN(8) +1
+WorkSheets("신병체크리스트보고").Select
+Range("B3:J13").Select
+Selection.ClearContents
+Dim Name_b
+Dim LstNum
+Dim Flagl
+If NumN(1) = 0 Then
+Else
+ReDim Day_2(10)
+ReDim Day_3T07(10)
+ReDim Day_8T011(10) ReDim Day 12To14(10)
+ReDim Week_3(10)
+ReDim Week_4(10)
+ReDim week_5(10)
+Dim i '구냥 한듯
+Dim m
+Dim n
+Dim b 'Case문에서 쓰인 변수
+For i = 1 To NumN(1)
+Range("B"&Day_1(i)).Value '1
+").Select
+WorkSheets("코로나 외출, 외박 정리
+Name_b
+WorkSheets("신병체크리스트보고
+Range("B"&i+2).Value = Name_b
+[N1]
+Range("L3:L13").End(XIDown).address
+=
+Flag1=0'새로운건지 아닌지 확인하
+ReDim NumN(8)
+For z = 1 To 8
+는 용도
+NumN(z) = 0 '각 경우(1일차등에 들어갈 사람수
+를 배열로
+Next
+에 있는지 체크
+For i = 5 To Num1
+b = Range("AH"&j).Value '
+Name_b Then
+Select Case b
+Case 0
+Range("M"&iii).Value
+Day_1(NumN(1)+1) = j NumN(1) = NumN(1) +1
+Range("M"&iii).Value
+= 1
+Case 1
+Day_2(NumN(2)+1) = j
+NumN(2) = NumN(2) +1
+Case 2 To 6
+Day_3T07(NumN(3)+1) = 에 이름이 없었던 새로운 케이스
+j
+NumN(3) = NumN(3) +1
+Case 7 To 10
+Day_8To11(NumN(4)+1)
+NumN(4) = NumN(4)+1
+Case 11 To 13
+= j
+LstNum = [01].Value
+For iii = 3 To LstNum'E
+If Range("L"&iii).Value
+=
+Else End If
+Flagl
+Next
+If Flagl = 0 Then '71
+Range("L"&LstNum+1).value
+= Name_b
+Range("M"&LStNum+1).Value
+Day 12To14(NumN(5)+1) 이트가 안된 케이스
+1
+Else
+End If
+If Flag! = 1 Then '
+[M2].Select
+
+Range("B"&i+2).Select
+Selection.Copy
+Range("C"&i+2).Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Range("B"&i+2).Select
+Else' 업데이트가 된 케이스
+[L2].Select Selection.Copy
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone,
+SkipBlanks:=False, Transpose:=False
+Next
+End If
+If NumN(2) = 0 Then Else
+End If
+For i = 1 To NumN(2)
+Selection.Copy
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Next
+End If
+End If
+If NumN(3) = 0 Then Else
+For i = 1 To NumN(3)
+WorkSheets("코로나 외출, 외박 정리
+").Select
+Name_b
+Range("B"&Day_3T07(i)).Value
+").Select
+WorkSheets("신병체크리스트보고
+1
+Range("D"&i+2).Value Name_b
+[N1]
+Range("L3:L13").End(XIDown).address
+Flag1 = 0
+LstNum = [01].Value
+For iii = 3 To LstNum
+If Range("L"&iii).Value
+").Select
+Range("B"&Day_2(i)).Value
+").Select
+WorkSheets("코로나 외출, 외박 정리
+Name_b
+WorkSheets("신병체크리스트보고
+Range("C"&i+2).Value = Name_b
+[N1]
+Range("L3:L13").End(XIDown).address
+Name_b Then
+Range("M"&iii).Value
+Range("M"&iii).Value = 2"
+Name_b Then
+Range("M" alue
+Range("M"&iii).Value = 3"
+If Range("L"
+Flag1 = 0
+LstNum = [01].Value
+For iii = 3 To LstNum
+Flag1
+=
+Flagl
+H
+Next
+Else
+End If
+If Flag1 = 0 Then
+).Value
+=
+Range("L"&LstNum+1).value
+=
+Name_b
+Range("M"&LStNum+1).Value = 3"
+Else End If
+If Flag1 = 3 Then
+[M2].Select Selection.Copy
+Else End If
+Next
+If Flag1 = 0 Then
+Range("D"&i+2).Select
+Range("L"&LstNum+1).value
+1=
+Name_b
+Range("M"&LStNum+1).Value = 2"
+Else
+End If
+If Flag1 = 2 Then
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Else
+[L2].Select Selection.Copy
+Range("C"&i+2).Select
+[M2].Select Selection.Copy
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Range("D"&i+2). Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Next
+End If
+Else
+[L2].Select
+If NumN(4) = 0 Then Else
+End If
+
+For i = 1 To NumN(4)"
+Worksheets("코로나 외출, 외박 정리
+").Select
+Name_b Then
+Name_b
+Range("B"&Day_8To11(i)).Value"
+WorkSheets("신병체크리스트보고
+").Select
+Range("E"&i+2).Value = Name_b"
+Range("M"&iii).Value
+Range("M"&iii).Value = 5"
+[N1]
+Range("L3:L13").End(XIDown).address
+Flagl = 0
+LstNum = [01].Value
+For iii = 3 To LstNum
+Name_b Then
+Range("M"&iii).Value
+Range("M"&iii).Value
+= 4"
+LstNum = [01].Value
+For iii = 3 To LstNum If Range("L"&iii).Value
+Flagl
+Next
+Else
+End If
+If Flag1 = 0 Then
+If Range("L"&iii).Value
+=
+Range("L"&LstNum+1).value = Name_b
+Flag1
+=
+Range("M"&LStNum+1).Value = 5"
+Else End If
+Else End If
+Next
+If Flag1 = 0 Then
+Range("F"&i+2).Select
+Range("L"&LstNum+1).value
+= Name_b
+Range("M"&LStNum+1).Value = 4"
+Range("E"&i+2).Select
+If Flag1 = 5 Then
+[M2].Select
+Selection.Copy
+Else
+End If
+If Flag1 = 4 Then
+[M2].Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False)
+Range("F"&i+2).Select
+Else
+[L2].Select Selection.Copy
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Next
+End If
+End If
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+If NumN(6) = 0 Then Else
+For i = 1 To NumN(6)"
+Else
+[L2].Select Selection.Copy
+").Select
+Range("B"&Week_3(i)).Value"
+End If
+").Select
+Range("E"&i+2).Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+WorkSheets("코로나 외출, 외박 정리”)
+Name_b
+WorkSheets("신병체크리스트보고”)
+Next
+End If
+If NumN(5) = 0 Then Else
+Range("G"&i+2).Value
+=
+Name_b"
+[N1]
+Range("L3:L13").End(XIDown).address
+Flag1 = 0
+LstNum = [01].Value
+For iii = 3 To LstNum
+For i = 1 To NumN(5)"
+WorkSheets("코로나 외출, 외박 정리
+").Select
+Name_b
+Name_b Then
+Range("B"&Day_12To14(i)).Value"
+WorkSheets("신병체크리스트보고
+Range("M"&iii).Value
+").Select
+Range("F"&i+2).Value
+Name_b"
+Range("M"&iii).Value = 6"
+[N1]
+Range("L3:L13").End(XIDown).address
+Flag1 = 0
+=
+If Range("L"&iii).Value
+=
+Flagl
+11
+Else
+End If
+Next
+
+Range("L"&LstNum+1).value = Name_b
+Range("M"&LStNum+1).Value = 6"
+If Flagl
+= 0 Then
+Range("H"&i+2).Select
+Else
+End If
+If Flag1 = 6 Then
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Else
+(L2).Select Selection.Copy
+[M2).Select Selection.Copy
+Range("G"&i+2).Select
+Range("H"&i+2).Select
+Selection.PasteSpecial Paste:=xlPasteFormats. Operation:=xlNone. SkipBlanks:=False, Transpose:=False
+End If
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Next
+End If
+Else
+[L2].Select Selection.Copy
+If NumN(8) = 0 Then Else
+For i = 1 To NumN(8)"
+Range("G"&i+2).Select
+").Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Range("B"&Week_5(i)).Value"
+End If
+").Select
+Next
+End If
+[N1]
+").Select
+If NumN(7) = 0 Then Else
+For i = 1 To NumN(7)"
+WorkSheets("코로나 외출, 외박 정리
+Range("B"&Week_4(i)).Value"
+").Select
+Name_b
+WorkSheets("신병체크리스트보고
+Range("H"&i+2).Value Name_b"
+Name_b Then
+Range("M"&iii).Value
+WorkSheets("코로나 외출, 외박 정리
+Name_b
+WorkSheets("신병체크리스트보고
+Range("I"&i+2).Value
+[N1]
+Range 13").End(XIDown).ADDRESS
+Flag1 = 0
+= Name_b"
+LstNum = [01].Value
+For iii = 3 To LstNum
+If Range("L"&iii).Value
+=
+Flagl
+=
+Range("M"&iii).Value = 8"
+Else End If
+Range("L3:L13").End(XIDown).address
+Name_b Then
+Range("M"&iii).Value
+Range("M"&iii).Value = 7"
+Flag1 = 0
+LstNum = [01].Value
+For iii = 3 To LstNum
+If Range("L"&iii).Value
+Flag1
+H
+Next
+If Flag1 = 0 Then
+Range("L"&LstNum+1).value = Name_b
+Range("M"&LStNum+1).Value
+=
+8"
+Else End If
+If Flagl = 8
+Else End If
+Then
+Next
+[M2].Select
+If Flag1 = 0 Then
+Selection.Copy
+Range("L"&LstNum+1).value = Name_b
+Range("M"&LStNum+1).Value = 7"
+Else
+End If
+If Flag1
+= 7 Then
+Range("I"&i+2).Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+[M2].Select
+Selection.Copy
+[L2].Select
+Else
+
+Selection.Copy
+Range("I"&i+2).Select
+Selection.PasteSpecial Paste:=xlPasteFormats, Operation:=xlNone,
+SkipBlanks:=False, Transpose:=False
+End If
+").Cells.find(i.value).offset(0,5).value
+i.offset(26,-2).value =worksheets("
+AH").Cells.find(i.value).offset(0,6).value
+i.offset(26,-1).value = ""
+i.offset(26,3).value
+= 1
+i.offset(26,4).value = [B14].value
+i.offset(26,5).value = [B14]. value
+a =
+Next
+End If
+End Sub
+WorkSheets("신병체크리스트 보고"). Select
+Sub PrintTest1()
+ActiveSheet.Print Out Copies:=1,
+Collate:=True,
+Next
+IgnorePrintAreas:=False
+'a
+=
+WorkSheets("2#").Select
+'a
+=
+Left(a,8)
+ActiveSheet.Print Out Copies:=1,
+Collate:=True,
+IgnorePrintAreas:=False
+WorkSheets("3# 7").Select
+C =
+For each m in Split(i.offset(0.1).value."-")
+Next
+a = a & m
+For each m in Split(i.offset(0,2).value,"-")
+c = c & m
+[B40].value & a
+'For each m in Split(i.offset(0,2).value."")
+For each n in Split(m,"!")
+If Len(n) = 1 Then
+ActiveSheet.PrintOut Copies:=1,
+Collate:=True,
+b = "0" & n
+IgnorePrintAreas:=False
+WorkSheets("4# 7").Select
+else
+b = m
+ActiveSheet.Printout Copies:=1,
+Collate:=True,
+IgnorePrintAreas:=False
+WorkSheets("5# 7").Select
+ActiveSheet.Printout Copies:=1,
+Collate:=True,
+IgnorePrintAreas:=False
+WorkSheets("6# 7").Select
+ActiveSheet.PrintOut Copies:=1,
+Collate:=True,
+IgnorePrintAreas:=False
+WorkSheets("").Select
+ActiveSheet.PrintOut Copies:=1,
+IgnorePrintAreas:=False
+WorkSheets("FDC 7").Select
+ActiveSheet.PrintOut Copies:=1,
+Collate:=True,)
+Next
+End If
+C = c & b
+'Next
+elself [B14].value
+'c = [B40].value & c
+'c = Left(c,8)
+i.offset(26,0).value = a
+i.offset(26,1).value = C
+If [B14].value "평일외출" Then
+=
+i.offset(26,6).value = 27
+=
+"주말외출" Then
+i.offset(26,6).value = 14
+IgnorePrintAreas:=False
+elself [B14].value
+=
+"외박" Then
+WorkSheets("47").Select
+i.offset(26,6).value
+= 15
+ActiveSheet.PrintOut Copies:=1,
+Collate:=True,
+End If
+IgnorePrintAreas:=False
+Next
+WorkSheets("").Select
+End Sub
+ActiveSheet.Printout Copies:=1,
+Collate:=True,
+Sub Call Holiday()
+Ignore PrintAreas:=False
+End Sub
+Sub nn()
+a =
+Dim name
+Dim RegularHoliday
+Dim Depart
+ReDim data(10)
+worksheets("").select
+[J1].Select
+End Sub
+Sub out()
+For each i in Split([D18].value,"-")
+Next MsgBox(a)
+a = a & i
+worksheets("").select
+last
+=
+Range("C17:C40").End(xldown).address
+For each i in Range("C17:" & last)
+& worksheets(" ").Cells.find(i.value).offset(0,6).value
+For i
+=
+1 To [G9].value
+name = ActiveCell.value Depart
+").Cells.Find(name).offset(0, 11).value
+RegularHoliday
+=
+WorkSheets("전체
+WorkSheets(Depart).Cells.Find(name).offset(0,1).offset(1,2).value
+ReDim PrizeList(8) '8개 넘어가면 수기로하셈
+i.offset(0,-1).value =i.offset(0.-1).value & "/"
+ReDim SpecialVacationList(18) 187
+i.offset(0,-2).value
+1
+worksheets("인원들 인적
+수기로하셈. 한컴사전에서 위로휴가가 SpecialVacation 이라 하드라. ReDim PrizeAddress(8)
+AH").Cells.find(i.value).offset(0,7).value
+ReDim SpecialAddress(18)
+RegularHollday
+If i mod 2 = 1 Then
+ActiveCell.offset(0,6).select
+else
+WorkSheets(Depart). Cells.Find(name).offset(0,1).offset(2+n.0).value
+Then
+Array("finish",0)
+PrizeList(n-1)
+Exit For
+End If
+ActiveCell.offset(0,-1).offset(39,-5).select
+End If
+Next
+PrizeList(n-1)
+Array(WorkSheets(Depart).Cells.Find(name).offset(0, 1).offset(2+n,0 ).value,WorkSheets(Depart).Cells.Find(name).offset(0, 1).offset(2+n,
+1).value)
+PrizeAddress(n-1)
+=
+WorkSheets(Depart).Cells.Find(name).offset(0,1).offset(2+n.0).addr
+ess
+Next
+I
+f
+For m = 1 To 18
+WorkSheets(Depart). Cells.Find(name).offset(0, 1).offset(22+m,0).val ue = "" Then
+SpecialVacationList(m-1)
+=
+Array("finish", 0)
+Exit For
+End If
+SpecialAddress(m-1)
+WorkSheets(Depart). Cells.Find(name).offset(0,1).offset(22+m, 0).add
+End Sub
+Sub MakeHolidayConsideration()
+Call 심의서지우기()
+Dim num
+worksheets("").select
+num = [G9].value
+Worksheets("").Range("H5").value = num
+Range("J1").select
+Dim startaddress
+Dim Endaddress
+startaddress = 8
+Endaddress = 8
+temp = 8
+Dim holtype
+For i = 1 To num
+Leftdate
+ress
+SpecialVacationList(m-1)
++m, 1).value)
+Array(WorkSheets(Depart). Cells.Find(name).offset(0, 1).offset(22+m ,0).value,WorkSheets(Depart). Cells.Find(name).offset(0, 1).offset(22
+Next 'data(i-1)
+=
+Special Vacation Lis t WorkSheets(Depart).Cells.Find(name).offset(0,1).offset(1,2).value)
+For n = 1 To 8
+Array(PrizeList)
+ActiveCell.offset(0,1).offset(2+n,0).value
+ActiveCell.offset(0, 1).offset(2+n, 1).value = PrizeList(n-1)(1)
+ActiveCell.offset(0,1).offset(2+n,3).value
+=
+Prizeaddress(n-1)
+Posangdate
+If PrizeList(n-1)(0) = "finish" Then Exit For
+ActiveCell.offset(0,1).offset(14,1).value
+Specialdate
+End If
+Activecell.offset(0,1).offset(34,1).value
+gongadate
+1
+PrizeList(n-1)(0)
+Activecell.offset(0,1).offset(2,3).value
+ActiveCell.offset(0,1).offset(1,0).Value
+holidaytype
+ACtiveCell.offset(0,1).offset(1,1).value
+DayUsed
+ACtiveCell.offset(0, 1).offset(1,2).value
+ACtiveCell.offset(0,1).offset(1,3).value
+StartDate
+Totalday
+Activecell.offset(0,1).offset(35,1).value
+=
+=
+ActiveCell.offset(0,1).offset(15+n,0).value
+SpecialVacation List(n-1)(0)
+Next
+For n = 1 To 18
+SpecialvacationList(n-1)(0)
+잘못 입력 하셨습니다.")
+"finish" Then
+End
+Exit For
+End If
+End If
+End If
+If not IsNumeric(DayUsed) Then
+name = activecell.value If holidaytype
+IsNumeric(holidaytype) Then
+<
+2
+or
+not
+If holidaytype = "" Then else
+MsgBox(name & "
+ActiveCell.offset(0, 1).offset(15+n, 1).value
+SpecialVacationList(n-1)(1)
+=
+ActiveCell.offset(0, 1).offset(15+n,3).value
+=
+SpecialAddress(n-1)
+Next
+If Dayused
+=
+Then
+else
+MsgBox(name & " d
+가사용 일수를 잘못 입력 하셨습니다.")
+End
+End If
+End If If Dayused
+and Leftdate < Dayused
+
+End
+End If
+If not IsDate(startdate) Then
+MsgBox(name & 잘못 되었거나 입력을 안하셨습니다.")
+End
+End If
+ReDim Posang(8,3)
+ReDim Special(18,3)
+Dim posangnum
+Dim SpelcialNum ReDim gonga (2,3)
+Dim gonganum gonganum =0 posangNum = 0
+I
+f
+IsNumeric(Special(n-1,1)
+ActiveCell.offset(0,1).offset(15+n,2).value) Then
+=
+Special(SpecialNum, 0) = ActiveCell.offset(0.1).offset(15+n,0).value
+Special(SpecialNum, 1) = ActiveCell.offset(0,1).offset(15+n,2).value
+Special(SpecialNum,2) = ActiveCell.offset(0, 1).offset(15+n,3).value
+SpecialNum + 1
+SpecialNum
+=
+else
+SpecialNum = 0
+For m = 1 To 2
+I
+f
+ActiveCell.offset(0, 1).offset(11+m,2).value <> 0 Then
+I
+f
+IsNumeric(ActiveCell.offset(0,1).offset(11+m,2).value) Then
+gonga(gonganum, 0) = ACtiveCEll.offset(0, 1).offset(11+m,0).value
+gonga(gonganum, 1) = ActiveCell.offset(0,1).offset(11+m,2).value
+gonga(gonganum,2) = ActiveCell.offset(0, 1).offset(11+m,3).value
+gonganum + 1
+else
+MsgBox(activecell.value & " } 아닌 다른 것을 입력하였습니다.")
+End
+End If
+End If
+Next
+depart
+").Cells.find(name).offset(0,11).value
+_where = find(name).offset(0,8).value
+gonganum
+MsgBox(activeCEll.value & "*}} 아닌 다른것을 입력하셨습니다.")
+Worksheets("전체
+Worksheets("인원들
+인적사항
+Worksheets("").select
+[11].value [12].value
+Endday = [13].value
+=
+startdate
+=
+Totalday
+Range("L" & Endaddress).value
+=
+Startdate
+=
+Endday
+Next
+End
+End If
+End If
+For m = 1 To 8
+I
+f
+ActiveCell.offset(0,1).offset(2+m,2).value <> 0 Then
+I
+f
+IsNumeric(ActiveCell.offset(0,1).offset(2+m,2).value) Then
+Range("M" & Endaddress).value
+=
+Range("O" & Endaddress).value Totalday
+range("N" & Endaddress).value = _where
+If DayUsed Then
+else
+End If
+f1 = "7]: " & DayUsed & holtype = "71,"
+fl = """
+If gonganum Then
+else
+f0 = ": " & gongadate
+holtype = holtype & "7},"
+f0 =
+" "
+Posang(PosangNum, 0) = ACtiveCEll.offset(0, 1).offset(2+m, 0).value
+Posang(PosangNum, 1) = ActiveCell.offset(0,1).offset(2+m,2).value
+End If
+If PosangNum Then
+f2 = ": " & Posangdate & holtype = holtype & ","
+# 8
+Posang(PosangNum,2) = ActiveCEll.offset(0,1).offset(2+m,3).value
+posangNum
+=
+else
+PosangNum + 1
+f2 =
+else
+End If
+MsgBox(activeCell.value & "
+아닌 다른것을 입력하셨습니다.")
+If Specialdate Then
+£3
+":"& Specialdate & holtype = holtype & ""
+U
+End
+else
+End If
+f3 =
+1114
+End If
+Endif
+Next
+range("P" & Endaddress).value
+=
+holtype
+
+
+
+If Dayused Then
+temp
+=
+Endaddress
+Worksheets("2").select
+If i mod 2 = 1 Then
+ActiveCell.offset(0,6).select
+else
+templ = 1
+templ = 0
++ specialnum + templ + gonganum
+End If
+range("G" & Endaddress).value
+range("I" & Endaddress).value range("J" & Endaddress).value range("K" & Endaddress).value If DayUsed <> 0 Then
+=
+posangnum
+else
+ActiveCell.offset(0,-1).offset(39,-5).select
+Next
+End If
+worksheets("").select
+=
+[A1].value Year(startdate) & " " & Month(startdate) & "월 휴가 심의서"
+= name
+=
+HolidayType DayUsed
+1).select
+range("C" & Endaddress).value =
+H" & DayUsed & "]"
+range("H" & Endaddress).value =
+n
+연가"
+Endaddress
+=
+Endaddress + 1
+End If
+For m = 1 To posangnum range("C"
+=posang(m-1,0) & "[" & posang(m-1,1) & "]"
+& Endaddress).value
+range("H" & Endaddress).value
+=
+posang(m-1,2)
+Endaddress = Endaddress + 1
+Next
+num = 0
+For m = 1 To specialnum range("C"
+=special(m-1,0) & "[" & special(m-1,1) & "]"
+special(m-1,2)
+Range("A" & startaddress & ":" & "E" & Endaddress
+End With
+With Selection.Borders(xlInsideHorizontal)
+.LineStyle
+= xlContinuous
+.Weight
+=
+xlThin
+.ColorIndex xlAutomatic
+=
+Selection.Font.Color = RGB(0, 0, 0)
+With Selection.Borders(xlInside Vertical) .LineStyle = xlContinuous
+End With
+.Weight
+= xlThin
+.ColorIndex xlAutomatic
+1
+With Selection.Borders(xlEdgeTop)
+& Endaddress).value
+range("H" & Endaddress).value =
+End With
+.LineStyle = xlContinuous
+.Weight = xlThin
+.ColorIndex = xlAutomatic
+With Selection.Borders(xlEdgeLeft)
+.LineStyle = xlContinuous .Weight
+num = num +1
+=
+Endaddress Endaddress + 1
+= xlThin
+.ColorIndex
+=
+xlAutomatic
+End With
+With Selection.Borders(xlEdge Bottom)
+.LineStyle
+= xlContinuous
+=
+xlAutomatic
+Next
+For m = 1 To gonganum range("C" &
+Endaddress).value
+=gonga(m-1,0) & "[" & gonga(m-1,1) & "]"
+range("H" & Endaddress).value
+=
+gonga(m-1,2)
+num = num +1
+=
+Endaddress Endaddress + 1
+End With
+Next
+range("A" & temp
+& ":" & "B" &
+Endaddress-1).select
+End Sub
+With Selection
+HorizontalAlignment = xlCenter
+VerticalAlignment = xlCenter
+= True
+End With
+.Weight = xlThin .ColorIndex
+With Selection.Borders(xlEdgeRight)
+.LineStyle = xlContinuous .Weight = xlThin
+.ColorIndex
+= xlAutomatic
+Selection. Borders(xlDiagonalDown). LineStyle Selection.Borders(xlDiagonalUp).LineStyle
+MergeCells
+End With
+Sub StoreHoliday()
+Worksheets("").select
+Range("C8").select
+Dim num
+num = [H5].value
+point = 8
+= xlNone
+=
+xlNone
+
+name =
+ACtiveCEll.offset(0,6).value _type = ActiveCell.offset(0,7).value
+DayUsed Startdate
+=
+=
+ActiveCEll.offset(0,8).value
+ActiveCell.offset(0,9).value
+Enddate= ActiveCEll.offset(0,10).value
+For i = 1 To [HS].value
+Worksheets("").select
+Range("I" & point1).value name = Worksheets("인원들 =1 milnum
+").cells.find(name).offset(0,6).value
+Depart
+=
+WorkSheets("전체
+startday
+").Cells.Find(name).offset(0,11).value
+R
+e
+D
+i
+m
+transdateform(range("L"&point 1).value)
+인적사항
+StoreHolidayAddress(HowManyHoliday)
+For n = 1 To How ManyHoliday
+StoreHolidayAddress(n-1)
+Range("H" & point).value
+Next
+Point = point + 1
+For each n in StoreHolidayAddress
+If n = "" Then
+If _type = 0 Then
+WorkSheets(Depart). cells.Find(name).offset(0,1).offset(7,5).value
+=
+WorkSheets(Depart).cells.Find(name).offset(0,1).offset(7,5).value
++ DayUsed
+elseif _type = 1 Then
+WorkSheets(Depart).cells.Find(name).offset(0,1).offset(19,5).value
+=
+WorkSheets(Depart). cells.Find(name).offset(0, 1).offset(19,5).value + DayUsed
+else
+returnday
+transdateform(range("M"&point 1).value)
+WorkSheets(Depart).cells.Find(name).offset(0,1).offse
+=
+WorkSheets(Depart).cells.Find(name).offset(0, 1).offset(25,5).value
++ DayUsed
+WorkSheets(Depart).Select
+=
+End If
+elseif n = "" Then
+else
+Range(n).offset(0,1).value
+term = range("O" & point1).value num = range("G" & point 1).value holtype = range("P" & point1).value holwhere = range("N" & point1).value hol =
+For m = 1 To num
+Next
+hol = hol & range("C" & point1)&
+point1 = point1 + 1
+WorkSheets("").select
+Range("A" & point2).value milnum
+=
+=
+Range("B" & point2).value holwhere Range("C" & point2).value = startday
+1
+returnday
+= term
+Range("D" & point2).value Range("F" & point2).value range("G" & point2).value range("H" & point2).value hol range("l"
+checkSpecial Holiday(holtype)
+&
+point2 = point2 + 1
+Next
+[A43].select
+End Sub
+Sub 무사고휴가추가()
+howmany
+worksheets("").select
+=
+=
+holtype
+1
+point2).value
+Cells.find("무사고 휴가 넣기 마법사
+").offset(4,0).offset(0,1).value
+referencedate
+=
+Cells.find("무사고 휴가 넣기 마법사
+=
+Next
+End If
+Next
+WorkSheets("").select
+Range("C" & point).select
+End Sub
+Sub MakeHolidayCalender(Startdate, Enddate, Totalday, name)
+End Sub
+Sub 연통제출용만들기()
+'군번 행선지 출발일(YYYYMMDD) 복귀일 반일여부 출타일 수근거/사유 상세내용 출타구분 10 연가 11청원휴가 12특별휴
+가 13 공가
+Worksheets("").select
+").offset(1,0).offset(0,2).value
+Then
+worksheets("인원들 인적사항").select
+data =
+For i = 1 To [K1].value
+If range("B" & 2 + i).value < referencedate
+data = data & range("A" & 2 +
+i).value
+If i <> [K1].value
+Then
+=
+data data & ","
+End If
+End If
+Next
+worksheets("").select
+[B2].value
+1
+data
+[B3].value = "2" & Cells.find("
+").offset(2,0).offset(0,1).value & "o!"
+[B4).value
+Cells.find("무사고 휴가 넣기 마법사
+
+Cells.find("무사고 휴가 넣기 마법사
+[B6].value ").offset(4.0).offset(0,2).value
+[A1].select
+End Sub
+Sub Setting Corona (newdata, point)
+ip_year = Year(newdata(1))
+ip_month
+=
+Month(newdata(1))
+For i = 1 To 17
+range(Chr(Asc("B")+i) & point).value = 1
+Right(ip_year, 2) & "-" & ip_month Then
+& 4).value
+If range(Chr(Asc("B")+i)
+Exit For
+End If
+NewData(9) = [B89).value
+Total_hol = [D80].value
+Worksheets("인원들 인적사항"). Select
+For i = 3 To 100
+Next
+point = i
+If range("A" & point).value = "" Then Exit For
+End If
+For i = 0 To 8
+NewData(i)
+Next
+Range(Chr(65+ i) & point).value
+Next range("V" & point).value = "=IF(AA" & point & "<U" & point & ".($U" & point & "-AA" & point & "),0)"
+point
+"+1" & ",2)"
+range("W" & point).value = "T" & point & "-V" &
+range("X" & point).value = "=QUOTIENT(W" & point &
+range("Y" & point).value = 0
+Range("E" & point).value = "D" & point & "-AF" &
+point + 5 & "+1"
+Worksheets("코로나 외출, 외박 정리").select
+For i = 5 To 100
+point3 = i
+If range("B" & point3).value = "" Then Exit For
+End If
+range("Z" & point).value = "=QUOTIENT(DATEDIF(AF" &
+Next
+Range("B" & point3).value = NewData(0)
+point & ",$AB$3," & Chr(34) & "m" & Chr(34) & ")-AG" & point & ",3)"
+range("AC" & point).value = "B" &
+point -2
+range("AD" & point).value = "= !C" &
+point -2
+Worksheets("").select
+For i
+=
+8 To 100
+point1 = i
+range("AF" & point).value = "=CONCATENATE(AR )
+Call SettingCorona (Newdata, point3)
+range("AE" & point).value = 0
+point & ",AS" & point & ",AT" & point & ",AU" & point &
+=
+range("AH" & point).value "=DATEDIF(AC & point & ",$W$2," & Chr(34) & "d" & Chr(34) & ")" range("AI" & point).value
+& "),7)+1"
+=
+Next
+If range("E" & point1).value = "" Then
+End If
+Exit For
+Range("E" & Point1).value = newdata(0)
+Range("F" & point1).value "J" & point1 & "+M" &
+1
+"=QUOTIENT((AH" & point
+point1 & "+N" & pointl
+range("G" & Point1).value
+=
+24
+range("AJ" & point).value = "=DATEDIF(AD" & point & ",$W$2," & Chr(34) & "d" & Chr(34) & ")"
+range("AK" & point).value = "=DATEDIF(AC" & point & ".$W$2," & Chr(34) & "d" & Chr(34) & ")"
+point
+End Sub
+range("AO" & point).value = "AA" & point & "-AE" &
+range("AR" & point).value = "-Year(AC" & point & ")" range("AS" & point).value
+range("AT" & point).value = "-Month(AC" & point & ")" range("AU" & point).value = "-01"
+Sub AddNew()
+Worksheets("").select
+'size9
+ReDim NewData(9)
+NewData(0) = [B80].value 'o NewData(1) = [B81].value '9
+NewData(2)= [B82).value NewData(3) = [B83].value NewData(4)= [B84].value
+NewData(5) = [B85].value NewData(6) = [B86].value '7
+Range("j" & point1).value = "=G" & point1 & "-H" &
+pointl & "-I" & pointl
+Range("K" & point1).value
+= 16
+Range("L" & point1).value 0
+=
+Range("O"& point1).value NewData(3)
+range("P" & point1).value newdata(9) & " 7" Worksheets(NewData(9) & " 7").select
+[B4].select
+For i = 1 To 15
+If i mod 2 = 1 Then
+2)).value = "" Then
+/2)).value = NewData(0)
+If range("A" & 4 + 48*Int(i /
+range("A" & 4 + 48*Int(i
+range("B" & 5 + 48*Int(i
+/ 2)).value = Total_hol
+range("E" & 5 + 48*Int(i
+/ 2)).value = Newdata(2)
+range("B"
+& 27
++
+48*Int(i/2)).value = "224 9"
+range("C"
+& 27
++
+48*Int(i / 2)).value ="='224 9. '!$X$" & point3
+range("B" & 28
+
+range("C" & 28
+$ZS" & point3
+'연가 사용일수보유연가 포상사용일수
+48-Int(i/2)).value ="='24 9.
+보유포상 보유위로 징계
+[B5].value
+"위로"
+Call addholiday()
+[B3].value = "" [B4).value = 1
+point2 = i
+Exit For
+Call addholiday()
+End If
+11)-80
+End If
+else
+If range("J" & 4 + 48 (Int(i /
+Call makepretty()
+WorkSheets("24").select
+2)-1)).value
+= "" Then
+range(")" & 4 + 48 (Int(i
+End Sub
+/ 2)-1)).value = NewData(0)
+Next.
+range("K" & 5 + 48*(Int(i
+Sub makepretty()
+/ 2)-1)).value = Total_hol
+range("N" & 5+ 48 (Int(i
+/ 2)-1)).value = Newdata(2)
+worksheets("인원들 인적사항").select
+num = [K1).value
+For i = 1 To num
+range("K" & 27 +
+Rani
+48 (Int(i/2)-1)).value = "24"
+range("A" & i+2 & ":" & "L" & i+2).select If i mod 2 = 1 Then
+ΟΛΠΟΥ
+range("L" & 27 + 48* (Int(i/ 2)-1)).value ="='49, '!$X$" & point3
+Selection.Interior.Color = RGB(215,
+ΛΑΟΥ
+223, 244)
+range("K" & 28
+else
+Rar
+48* (Int(i/ 2)-1)).value = " "
+range("L" &
+28 +
+181, 224)
+48* (Int(i / 2)-1)).value ="='4 9, 9 '!$Z$" & point3 '연가 사용일수보유연가 포상사용일수
+End If
+Next
+보유포상 보유위로 징계
+point2 = i
+Exit For
+End If
+End If
+Next
+년
+For i = 1 To num
+1-42-15 16 worksheets(", ").select
+range("A" & i+4 & ":" & "W" & i+4 & "AA" &
+& ":" & "AM" & i+4).select
+223, 244)
+else
+Selection.Interior.Color = RGB(164.
+כן
+If i mod 2 = 1 Then
+Selection.Interior.Color = RGB(215,
+V
+1
+Newdata(9) & "
+Newdata(9) & "'!" &"C" & 25+ 48 Int(point2 / 2) Range("N" & point1).value 7!" & "C" & 47+ 48 Int(point2 / 2)
+Worksheets("").select
+If point2 mod 2 = 1 Then
+Range("H" & point1).value
+Newdata(9) & "'!" & "C" & 5 + 48 * Int(point22) Range("I" & point1).value
+*
+=
+Newdata(9) & " 7!" &"G" & 47+ 48 Int(point2 / 2) Range("M" & point1).value
+&
+181, 224)
+Selection.Interior.Color = RGB(164,
+&
+End If
+=
+"=""
+&
+=
+"=""
+&
+else
+Range("H" & point1).value Newdata(9) & " 7!" & "L" & 5+ 48 (Int(point2 / 2) -1) Range("I" & point1).value = "=""
+=
+"=""
+&
+Next
+*
+&
+Newdata(9) & " End If
+Newdata(9) & " 7!" & "P" & 47+ 48 (Int(point2/2) -1) Range("M" & "="" =
+Newdata(9) & " 7!" & "L" & 25+ 48 (Int(point2/2) -1) Range("N" & 7!" & "L" & 47+ 48 (Int(point2/2) -1)
+WorkSheets("").select
+If Newdata(4) Then
+*
+point1).value
+&
+range("X" & i+4).select
+Selection.Interior.Color = RGB(179, 255, 179)
+range("Y" & i+4).select
+Selection.Interior.Color = RGB(230, 238, 201)
+range("Z" & i+4).select
+Selection.Interior.Color = RGB(218, 228, 195)
+worksheets("").select
+For i = 1 To num
+range("D" & i + 7 & ":" & "O" & i+7).select
+1 Then
+*
+If i mod 2
+=
+Selection.Interior.Color = RGB(255,
+point1).value
+=
+"=""
+&
+255, 255)
+*
+else
+Selection.Interior.Color = RGB(255,
+224, 204)
+End If
+[B2].value
+1
+newdata(0)
+Next
+End Sub
+else
+[B3].value = ""
+"신병위로"
+[B4).value = 4
+[B5].value = ""
+Call addholiday()
+[B2].value = newdata(0)
+Sub 심의서지우기()
+Worksheets("").select
+Range("AD62:BM123").Select
+Selection.Copy
+Range("A8:B29").Select
+ActiveSheet.Paste
+'Range("A8").Select
+'Selection.PasteSpecial
+'Selection.PasteSpecial
+Paste:=xlPasteFormats,
+Paste:=xlPasteValues,
+Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+Operation:=xlNone, SkipBlanks:=False, Transpose:=False
+End Sub
+Sub allupdate221212()
+Range(End_address_num).end(xldown).address
+start_Address_Num
+End_Address_num
+H
+=
+get_num(Person_Address)+1
+get_num(End_address)
+Start Num CheckAlphabet(Start Alphabet) End_Num
+a
+=
+=
+CheckAlphabet(End_Alphabet)
+Range(Start Alphabet & Start_Address_Num & ":" & End_Alphabet & End_Address_Num).formula
+Range(start_Alphabet & Start_Address_Num-1) = a Range(Start Alphabet & End_Address_Num). Select For i = StartNum To End Num
+Selection.offset(0,i-startNum).clearcontents
+ans
+bug
+B'R
+worksheets("").select
+For i = 1 To 39
+name = Range("E" & 7 + i).value
+depart point
+=
+range("P" & 7 + i).value
+Worksheets(depart). Cells.find(name).address
+alpha = Right(Left(point,2),1)
+If IsNumeric( Right(point,3)) Then
+=
+point Right(point,3)
+elself IsNumeric( Right(point,2)) Then
+else
+End If
+point = Right(point,2)
+point = Right(point, 1)
+point = Int(point/48)
+range("H" & 7+i).formula = "="" & depart &
+"!" & Chr(Asc(alpha)+ 2) & 5 + 48*point
+range("i" & 7+i).formula = "="" & depart &
+"'!" & Chr(Asc(alpha)+ 6) & 47 + 48*point range("M" & 7+i).formula = "="" & depart &
+End Sub
+Next
+Function CheckAlphabet(Alpha)
+Dim sum
+sum = 0
+For i = 1 To Len(Alpha)
+sum
+=
+sum
++
+26^(i-1)*(Asc(Left(Right(Alpha,i),1))-64) '26711 101 수로 변환하는 코드.
+Next
+CheckAlphabet = sum
+End Function
+Function
+Dim str_return
+For i 1 To Len(words)
+word= "="" & depart &
+"!" & Chr(Asc(alpha)+ 2) & 25+ 48*point range("N" & 7+i).formula "'!" & Chr(Asc(alpha)+ 2) & 47 + 48*point
+ipdae
+=
+worksheets("인원들
+").cells.find(name).offset(0,2).value
+worksheets(depart).cells.Range(Chr(Asc(alpha)+
+48*point).value ipdae
+=
+Next
+Right(Left(words,i),1)
+If IsNumeric(word) Then
+End If
+str_return = str_return & word
+get_num = str_return
+인적사항
+End Function
+4) & 5 +
+Function get_Alphabet(words)
+Dim str_return
+"
+worksheets(depart). cells.Range(Chr(Asc(alpha)+ 1) & 5 +
+48*point).value
+= 24
+Next
+For i = 1 To Len(words)
+word H
+Right(Left(words,i),1)
+If (Asc(word)>64 and Asc(word)<91) or
+(Asc(word)>96 and Asc(word)<123) Then
+End Sub
+////module 2////
+'module 10
+Sub afsdfs()
+[E75].copy
+[E73].select
+End Sub
+ActiveSheet.paste
+Sub Delete_tool(Start_Alphabet, End_Alphabet, who_gone)'
+위치 넣어주면 바로위 삭제하고 복붙, 연속되야함
+Dim Start Num
+Dim End_Num
+Dim Start_Address_Num
+Dim End_Address_Num
+end_address_num
+Person_Address =
+=
+Cells.find(""). Address
+Cells.Find(who_gone).Address
+End_Address
+11
+str_return = str_return & word
+End If
+Next
+get_Alphabet = str_return
+End Function
+Sub MakeCalender()
+Dim Current Year
+Dim Current Month
+Dim Current Address
+Dim YY-MM
+Dim Next Year
+Dim
+Next Month
+Dim Next_Address
+Dim Start_Day '주에서 시작하는 요일
+worksheets("").select
+Current Year = [A1].Value
+Current Month
+=
+[A2].Value
+Selection.RowHeight = 23.25 ActiveCell.offset(1.0).Select
+Next
+For i = 1 To 3
+Selection.RowHeight = 14.25 ActiveCell.offset(1.0).Select
+80
+Start Day = [A3].value
+YY-MM =
+Current Year & "_" & Current Month
+Current Address =
+Curr_Set Next Set
+1
+1
+Cells.Find(YY_MM). Address
+Array(Current Year, Current Month)
+GetNextSet(Curr_set)
+Next Year Next_set(0)
+=
+Next Month =
+=
+Next_set(1)
+[A1].value Next Year
+Next
+End If
+[A2].Value Next Month
+Calculate_Monthly Date(Next_year.
+End Sub
+=
+Month Date
+Next Month)
+Range("B1:H27").select
+Selection.Copy
+If Current Year
+Range(Current Address).offset(-1,9).address
+= Next Year Then Next Address
+Function GetNextSet(Arr_Set)
+If Arr_set(1) = 12 Then
+else
+GetNextSet = Array(Arr_Set(0)+1.1)
+GetNextSet = Array(Arr_set(0), Arr_set(1)+1)
+else
+End If
+Diff = Next Year - 2021 Next Address
+End Function
+Range("B1").offset(Diff *30,0).address
+End If
+Range(Next_Address). Select
+ActiveSheet.Paste
+1
+[A3].value (Start_Day + Month_date) mod 7 Range(Next_address).offset(0,3).value
+=
+"휴가달력"
+Range(Next_address).offset(1.0).value = Next Year &
+"_" & Next_month
+년"
+Next Year & '
+Range(Next_address).offset(1,1).value
+=
+Next Month =
+Function Calculate_MonthlyDate(Int_Year, Int_Month) If Int_Month = 2 Then
+If Int_Year mod 4 <> 0 Then calculate_Monthly Date = 28
+elself Int_Year mod 400 = 0 Then calculate_MonthlyDate = 29
+elself Int Year mod 100 = 0 Then calculate Monthly Date = 28
+Range(Next_address).offset()
++
+else
+End If
+calulate_Monthly Date = 29
+elself (Int_Month mod 2 = 1 and Int_Month < 8) or (
+Int_Month mod 2 = 0 and Int_Month > 7) Then
+else
+"월"
+Range(Next_address).offset(1,4).value
+Range(Next_address).offset(1,6).value
+=
+Month_date) mod 7
+For i = 1 To Month_Date
+mod 7 + i-1) / 7)*4, (Start_Day+i -1 ) mod 7).Value Next
+=
+i
+Range(Next_address).offset(3x Day
+If Current Year = Next_Year Then
+For i = 1 To 7
+Selection.ColumnWidth = 17.65 ActiveCell.offset(0,1).Select
+Next
+For i = 1 To 2
+Selection.ColumnWidth = 8.11 ActiveCell.offset(0,1).Select
+End If
+End Function
+Calculate_Monthly Date = 31
+calculate_Monthly Date = 30
+Function transdateform(Original_form)
+_Year
+1
+Year(Original_form)
+_month =
+Month(original_form)
+_day = Day(original_form)
+If month < 10 Then
+_month = "0" & _month
+23.25
+Next
+else
+End If
+If day
+10 Then
+For i = 1 To 3
+_day = "0" & _day
+Selection.RowHeight = 14.25 ActiveCell.offset(1,0).Select
+End If
+transdateform = _year & _month & _day
+Next
+End Function
+For i = 1 To 6
+Function checkSpecialHoliday(holiday)
+For m = 1 To 2
+Selection.RowHeight
+temp
+1
+Split(holiday.",")
+flag
+12
+ActiveCEll.offset(1,0).Select
+Next
+Selection.RowHeight = 93 ActiveCell.offset(1,0).Select
+For each i in temp
+If i = "" Then
+flag = 10
+End If
+Next
+checkSpecialHoliday = flag
+PV
